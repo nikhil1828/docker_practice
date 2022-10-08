@@ -17,6 +17,6 @@ COPY ecomm-master /opt/tomcat/apache-tomcat-9.0.67/webapps/ROOT/
 EXPOSE 8080
 
 
+
 #CMD ["sleep", "1600"]
-# && apt install wget -y && apt install tar -y
 # RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.67/bin/apache-tomcat-9.0.67.tar.gz
