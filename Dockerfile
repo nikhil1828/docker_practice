@@ -2,6 +2,8 @@ FROM ubuntu
 
 MAINTAINER nikhil
 
+WORKDIR /root
+
 RUN mkdir -p /opt/tomcat
 RUN apt update -y && apt install default-jdk -y
 
