@@ -4,8 +4,9 @@ MAINTAINER nikhil
 
 WORKDIR /root
 
-RUN mkdir -p /opt/tomcat
-RUN apt update -y && apt install default-jdk -y
+RUN mkdir -p /opt/tomcat \
+    && apt update -y \
+    && apt install default-jdk -y
 
 ADD apache-tomcat-9.0.67.tar.gz /opt/tomcat/
 
